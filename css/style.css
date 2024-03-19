@@ -1,0 +1,671 @@
+.header{
+    /* position: fixed; */
+}
+
+.btn {
+    background-color: rgb(219, 173, 113);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0px;
+  
+  }
+  
+  .btn:hover {
+    background-color: rgb(236, 230, 230);
+    color: rgb(14, 11, 11);
+  }
+  
+  /* nav bar end */
+  
+  /* banner first start */
+  .banner {
+    /* height: 100vh; */
+    width: 100%;
+  }
+  
+  .luxury {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+  }
+  
+  .hotel {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    color: white;
+  }
+  
+  .entire {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .tnb {
+    background-color: rgb(219, 173, 113);
+    border: none;
+    color: white;
+    width: 17%;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0px;
+  }
+  
+  .tnb:hover {
+    background-color: black;
+  
+  }
+  
+  /* banner first end */
+  /* Custom Thai-inspired styles */
+  body {
+    font-family: 'Kanit', sans-serif;
+    /* Use a Thai font */
+    background-color: #F5F5F5;
+    /* Light background color */
+  }
+  
+  .section-title {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(219, 173, 113);
+    font-size: 18px;
+  
+  }
+  
+  .section-titlel {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 43px;
+  
+  }
+  
+  .quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+  }
+  
+  .box1,
+  .box2 {
+    background-color: #FFFFFF;
+    /* White background for boxes */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+  }
+  
+  .box1 h6,
+  .box2 h6 {
+    color: #6D6875;
+    /* Purple color for box titles */
+  }
+  
+  .star {
+    color: #888888;
+    /* Lighter color for additional text */
+  }
+  
+  .icon {
+    color: burlywood;
+    font-size: 20px;
+  }
+  
+  /* Custom cursor and transition for boxes */
+  .box1,
+  .box2 {
+    /* Existing styles */
+  
+    /* Add cursor pointer on hover */
+    cursor: pointer;
+  
+    /* Add transition for smooth effect */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Define initial position */
+  .box1 {
+    margin-left: 0;
+    /* Initially aligned to the left */
+    margin-right: 20px;
+    /* Space between the boxes */
+  }
+  
+  .box2 {
+    margin-left: 0px;
+    /* Space between the boxes */
+    margin-right: 20px;
+    /* Initially aligned to the right */
+  }
+  
+  /* Move boxes to the right on hover */
+  .box1:hover {
+    margin-left: 20px;
+    /* Align box1 to the right */
+    margin-right: 0;
+    /* Adjust margin-right */
+  }
+  
+  .box2:hover {
+    margin-left: 20px;
+    /* Adjust margin-left */
+    margin-right: 0;
+    /* Align box2 to the left */
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {}
+  
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  a,
+  a:active,
+  a:focus {
+    color: #333;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  section {
+    padding: 60px 0;
+    /* min-height: 100vh;*/
+  }
+  
+  .btn {
+    padding: 14px 25px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .red-btn {
+    background: #ed1b24;
+    border: 2px solid #ed1b24;
+    color: #fff;
+  }
+  
+  .red-btn:hover {
+    background: #1c376c;
+    color: #fff;
+    border-color: #ffffff;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {}
+  
+  section {
+    padding: 60px 0;
+    min-height: 100vh;
+  }
+  
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  a,
+  a:active,
+  a:focus {
+    color: #6f6f6f;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer-section {
+    background-color: #30363d;
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+  }
+  
+  .footer-section:before {
+    content: '';
+    position: absolute;
+    top: -146%;
+    left: -18%;
+    width: 44%;
+    height: 257%;
+    transform: rotate(54deg);
+    background-color: rgb(29, 32, 36);
+    -webkit-transform: rotate(54deg);
+    -moz-transform: rotate(54deg);
+    -ms-transform: rotate(54deg);
+    -o-transform: rotate(54deg);
+    z-index: -10;
+  }
+  
+  .footer-section:after {
+    position: absolute;
+    content: '';
+    background-color: rgb(38, 42, 46);
+    top: -24%;
+    right: 4%;
+    width: 26%;
+    height: 264%;
+    transform: rotate(44deg);
+    -webkit-transform: rotate(44deg);
+    -moz-transform: rotate(44deg);
+    -ms-transform: rotate(44deg);
+    -o-transform: rotate(44deg);
+    z-index: -10;
+  }
+  
+  .footer-top {
+    padding-top: 96px;
+    padding-bottom: 50px;
+  }
+  
+  .footer-top p,
+  .company-footer-contact-list li {
+    color: #ffffff;
+  }
+  
+  .company-footer-contact-list {
+    margin-top: 10px;
+  }
+  
+  .company-footer-contact-list li {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+  }
+  
+  .company-footer-contact-list li+li {
+    margin-top: 5px;
+  }
+  
+  .company-footer-contact-list li i {
+    margin-right: 10px;
+    font-size: 20px;
+    display: inline-block;
+  }
+  
+  .footer-top .site-logo {
+    margin-bottom: 25px;
+    display: block;
+    max-width: 170px;
+  }
+  
+  .widget-title {
+    text-transform: capitalize;
+  }
+  
+  .footer-top .widget-title {
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  
+  .courses-link-list li+li {
+    margin-top: 10px;
+  }
+  
+  .courses-link-list li a {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: var(--para-font);
+    font-weight: 400;
+  }
+  
+  .courses-link-list li a:hover {
+    color: #ffb606;
+  }
+  
+  .courses-link-list li i {
+    margin-right: 5px;
+  }
+  
+  .footer-top .small-post-title a {
+    font-family: var(--para-font);
+    color: #ffffff;
+    font-weight: 400;
+  }
+  
+  .small-post-item .post-date {
+    color: #ffb606;
+    margin-bottom: 3px;
+    font-family: var(--para-font);
+    font-weight: 400;
+  }
+  
+  .small-post-list li+li {
+    margin-top: 30px;
+  }
+  
+  .news-letter-form {
+    margin-top: 15px;
+  }
+  
+  .news-letter-form input {
+    width: 100%;
+    padding: 12px 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+  }
+  
+  .news-letter-form input[type="submit"] {
+    width: auto;
+    border: none;
+    background-color: #c8b78d;
+    padding: 9px 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom {
+    padding: 13px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.149);
+  }
+  
+  .copy-right-text {
+    color: #ffffff;
+  }
+  
+  .copy-right-text a {
+    color: #ffb606;
+  }
+  
+  .terms-privacy li+li {
+    margin-left: 30px;
+  }
+  
+  .terms-privacy li a {
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .terms-privacy li a:after {
+    position: absolute;
+    content: '-';
+    color: #ffffff;
+    display: inline-block;
+    top: 0;
+    right: -18px;
+  }
+  
+  .terms-privacy li+li a:after {
+    display: none;
+  }
+  
+  .the {
+    font-family: "Playfair Display", serif;
+    color: burlywood;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .suit {
+    font-family: "Playfair Display", serif;
+  
+    text-align: center;
+    font-size: 45px;
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 320px;
+    height: 400px;
+    perspective: 1000px;
+    float: left; 
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    color: white;
+    background-image: url(../photo/desktop-wallpaper-description-room-hotel-is-a-hi-res-for-pc-for-your-mobile-tablet-explore-for-rooms-full-screen-hotel-room.jpg);
+    transform: rotateY(180deg);
+  
+  }
+  
+  .flip-card-front .bhai {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 52px;
+    left: 70%;
+    right: 0;
+   
+    color: white;
+    border: 2px solid white;
+    width:40%;
+  }
+  
+  .flip-card-front .nh {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+  }
+  .flip-card-front .hn {
+    position: absolute;
+   bottom: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+  }
+  .Deluxe{
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+  .viverra{
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align:start;
+  }
+  .se{
+    
+      font-family: "Playfair Display", serif;
+      font-size: 20px;
+      color: burlywood;
+      padding-top: 90px;
+      padding-left: 30px;
+    
+  }
+  .relax{
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    padding-top: 0px;
+    padding-left: 25px;
+    
+  }
+  .Dictum{
+    padding-left: 25px;
+    color: gray;
+  }
+  .Thermal{
+    color:burlywood;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+  }
+  .tnn {
+    background-color: rgb(219, 173, 113);
+    border: none;
+    color: white;
+    width: 35%;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .tnn:hover {
+    background-color: black;
+  
+  }  
+  .romm{
+    background-color: burlywood;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .price{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: burlywood;
+    padding-top: 33px;
+    padding-left: 30px;
+  }
+  .extra{
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    padding-left: 30px;
+  }
+  .duis{
+    padding-left: 30px;
+    padding-top: 20px;
+
+  }
+  .sint{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: gray;
+  }
+  .phone{
+    color: burlywood;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  .more{
+    padding-top: 20px;
+    padding-left: 10px;
+    color: burlywood;
+    
+  }
+.box{
+    padding: 2rem;
+    display: grid;
+    gap: 20px;
+}
+.topimg img{
+    height: 90px;
+    width: 90px !important;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+.topdes div{
+    color: #999;
+}
+.icn i{
+    color: orange;
+}
+.topcontent h5,h6{
+    color: white;
+}
+.holiday{
+  background-image: url(../photo/image-2578698_510.jpg);
+  color: white;
+  background-attachment: fixed;
+}
